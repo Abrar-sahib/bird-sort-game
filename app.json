@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "game-1",
-    "slug": "game-1",
+    "slug": "ace",
+    "scheme": "birdsort",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,6 +21,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ae5c69e9-d2da-45ab-9092-27eb322a9929"
+      }
+    },
+    "owner": "ace-007s-team",
+    "plugins": [
+      "expo-router",
+      "expo-audio"
+    ]
   }
 }
